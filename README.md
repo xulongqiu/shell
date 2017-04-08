@@ -1,29 +1,26 @@
 # shell 
 > 学习笔记 
-> [菜鸟教程](http://www.runoob.com/linux/linux-shell.html),
+> [菜鸟教程](http://www.runoob.com/linux/linux-shell.html)
+
 > [30分钟玩转shell脚本编程](http://c.biancheng.net/cpp/shell/)
 
-- **Shell**
-
- Shell 是一个使用C语言编写的程序，是用户使用Linux的桥梁。*Shell既是一种命令行语言， 也是一种程序设计语言。* 作为命令行语言，它交互式地解释和执行用户输入的命令;作为程序语言，它可以定义各种变量和参数，并提供了许多编程语言中具有的控制结构，包括循环和分支。
+## **Shell**
+Shell 是一个使用C语言编写的程序，是用户使用Linux的桥梁。*Shell既是一种命令行语言， 也是一种程序设计语言。* 作为命令行语言，它交互式地解释和执行用户输入的命令;作为程序语言，它可以定义各种变量和参数，并提供了许多编程语言中具有的控制结构，包括循环和分支。
 Shell 是指一种应用程序(即shell脚本解释器)，它虽然不是Unix/Linux系统内核的一部分，但它调用了系统核心的大部分功能来执行程序，建立文件并以并行的方式协调各个程序的运行。  
 **Shell 有两种执行命令的方式：**
   - 交互式：解释执行用户输入的命令， 用户输入一条，shell就解释执行一条。
   - 批处理：用户事先编写一个shell脚本，其中有很多条命令， 让shell一次把这些命令执行完毕，而不必一条条的输入命令.
 
 
-- **Shell 脚本**
-
- Shell脚本(Shell script), 是使用shell语言编写的命令行的集合，称为脚本程序。
+## **Shell 脚本**
+Shell脚本(Shell script), 是使用shell语言编写的命令行的集合，称为脚本程序。
 业界所说的shell通常是指shell脚本，其实shell和shell script是两个不同的概念。
 
 
-- **Shell 开发环境**
+## **Shell 开发环境**
+Shell编程跟Python/perl/java编程一样，只要有一个能编写代码的纯文本编辑器和脚本解释器就可以了。  
 
- Shell编程跟Python/perl/java编程一样，只要有一个能编写代码的纯文本编辑器和脚本解释器就可以了。  
-
-
-- **常见Shell解释器**
+## **常见Shell解释器**
 
  Linux 的Shell种类众多， 常见的有bash, sh, csh, ksh等。*我们所说的有多少中Shell，其实说的是Shell脚本解释器。*
  - **sh**
