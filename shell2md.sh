@@ -13,7 +13,8 @@
 
 if [ -f $1 ] && [ $# -eq 1 ] && [ ${1##*.} == "sh" ]; then
     mdName=${1%.*}
-    echo  \#\#${mdName} > ${mdName}.md 
+    echo  \#\# ${mdName} > ${mdName}.md
+    echo  "  " >> ${mdName}.md
 else
     echo "Usage: $0 shellfile"
 fi
